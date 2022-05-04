@@ -29,9 +29,9 @@ const mockUser = {
   bio: 'Creator of Coding Addict',
   twitter_username: 'john_smilga',
   public_repos: 152,
-  public_gists: 0,
+  public_gists: 23,
   followers: 1495,
-  following: 0,
+  following: 40,
   created_at: '2018-08-06T06:48:23Z',
   updated_at: '2020-07-08T05:01:32Z',
 }
