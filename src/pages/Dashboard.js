@@ -4,7 +4,7 @@ import loadingImage from '../images/preloader.gif'
 const Dashboard = () => {
   return (
     <main>
-      {/* <Navbar /> */}
+      <Navbar />
       <Search />
       <Info />
       <User />
