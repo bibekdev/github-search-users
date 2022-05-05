@@ -5,7 +5,7 @@ const Dashboard = () => {
   return (
     <main>
       {/* <Navbar /> */}
-      {/* <Search /> */}
+      <Search />
       <Info />
       <User />
       <Repos />
