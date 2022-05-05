@@ -23,10 +23,9 @@ const Repos = () => {
         stars: total[language].stars + stargazers_count,
       }
     }
-    // console.log(total)
     return total
   }, {})
-  console.log(languages)
+
   const mostUsed = Object.values(languages)
     .sort((a, b) => {
       return b.value - a.value
@@ -53,24 +52,7 @@ const Repos = () => {
   )
   stars = Object.values(stars).slice(-5).reverse()
   forks = Object.values(forks).slice(-5).reverse()
-  const chartData = [
-    {
-      label: 'HTML',
-      value: '13',
-    },
-    {
-      label: 'CSS',
-      value: '23',
-    },
-    {
-      label: 'Javascript',
-      value: '80',
-    },
-    {
-      label: 'Reactjs',
-      value: '60',
-    },
-  ]
+
   return (
     <section className='section'>
       <Wrapper className='section-center'>
